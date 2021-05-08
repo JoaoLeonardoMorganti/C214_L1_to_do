@@ -23,10 +23,7 @@
 
 <h2>:bust_in_silhouette: Students: </h2>
 
-<table align="center">
-	<tr align ="center">
-	<td align="center"><a href="https://github.com/JoaoLeonardoMorganti"> style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/59871341?v=4" width="100px;" alt=""/><br /><sub><b>João Leonardo Morganti</b></sub></a><br /></td>
-	<td align="center"><a href="https://github.com/SarahBrandao"> style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/72148078?v=4" width="100px;" alt=""/><br /><sub><b>Sarah Brandão</b></sub></a><br /></td>
-	</tr>
+* João Leonardo Morganti
+* Sarah Brandão Souza
 
 
