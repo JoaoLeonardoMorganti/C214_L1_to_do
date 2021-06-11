@@ -15,6 +15,7 @@
 		B537634F264512B7007C7FCF /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B537634D264512B7007C7FCF /* ToDoApp.xcdatamodeld */; };
 		B537635A264512B7007C7FCF /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5376359264512B7007C7FCF /* ToDoAppTests.swift */; };
 		B5376365264512B7007C7FCF /* ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5376364264512B7007C7FCF /* ToDoAppUITests.swift */; };
+		B5D85EE526740D9E004833FA /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D85EE426740D9E004833FA /* TaskStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B5376360264512B7007C7FCF /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5376364264512B7007C7FCF /* ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITests.swift; sourceTree = "<group>"; };
 		B5376366264512B7007C7FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D85EE426740D9E004833FA /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				B5376342264512B6007C7FCF /* ToDoAppApp.swift */,
 				B5376344264512B6007C7FCF /* ContentView.swift */,
+				B5D85EE426740D9E004833FA /* TaskStore.swift */,
 				B5376346264512B7007C7FCF /* Assets.xcassets */,
 				B537634B264512B7007C7FCF /* Persistence.swift */,
 				B5376350264512B7007C7FCF /* Info.plist */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D85EE526740D9E004833FA /* TaskStore.swift in Sources */,
 				B537634C264512B7007C7FCF /* Persistence.swift in Sources */,
 				B5376345264512B6007C7FCF /* ContentView.swift in Sources */,
 				B5376343264512B6007C7FCF /* ToDoAppApp.swift in Sources */,

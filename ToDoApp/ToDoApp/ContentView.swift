@@ -6,15 +6,17 @@
 //
 
 import SwiftUI
-import CoreData
+import Combine
 
 struct ContentView: View {
+    @ObservedObject var taskStore = TaskStore()
+    
     var body: some View {
         NavigationView {
             VStack {
-                List() {
-                    Text("Hello world")
-                }
+                List(self.taskStore.tasks) { task in
+                    Text(task.toDoItem)
+                }.navigationBarTitle("Tasks")
             }
         }
     }
