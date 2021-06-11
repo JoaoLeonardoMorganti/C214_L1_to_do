@@ -16,7 +16,8 @@ struct ContentView: View {
         HStack {
             TextField("Nova tarefa", text: self.$newToDo)
             Button(action: {
-                self.addNewTask(store: self.taskStore)
+                self.taskStore.addNewTask(text: self.newToDo)
+                self.newToDo = ""
             }, label: {
                 Text("Criar")
             })
@@ -36,11 +37,6 @@ struct ContentView: View {
                 .navigationBarItems(trailing: EditButton())
             }
         }
-    }
-    
-    func addNewTask(store: TaskStore) {
-        store.tasks.append(Task(id: String(taskStore.tasks.count + 1), toDoItem: self.newToDo))
-        self.newToDo = ""
     }
     
     func move(from source: IndexSet, to destination: Int) {

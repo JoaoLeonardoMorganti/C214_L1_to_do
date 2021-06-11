@@ -16,4 +16,8 @@ struct Task: Identifiable {
 
 class TaskStore: ObservableObject {
     @Published var tasks = [Task]()
+    
+    func addNewTask(text: String) {
+        self.tasks.append(Task(id: String(self.tasks.count + 1), toDoItem: text))
+    }
 }
