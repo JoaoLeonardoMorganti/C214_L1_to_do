@@ -15,6 +15,7 @@
 		B537634F264512B7007C7FCF /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B537634D264512B7007C7FCF /* ToDoApp.xcdatamodeld */; };
 		B537635A264512B7007C7FCF /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5376359264512B7007C7FCF /* ToDoAppTests.swift */; };
 		B5376365264512B7007C7FCF /* ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5376364264512B7007C7FCF /* ToDoAppUITests.swift */; };
+		B5B0627226742413007AAEDC /* TaskStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B0627126742413007AAEDC /* TaskStoreTests.swift */; };
 		B5D85EE526740D9E004833FA /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D85EE426740D9E004833FA /* TaskStore.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		B5376360264512B7007C7FCF /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5376364264512B7007C7FCF /* ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITests.swift; sourceTree = "<group>"; };
 		B5376366264512B7007C7FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B0627126742413007AAEDC /* TaskStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStoreTests.swift; sourceTree = "<group>"; };
 		B5D85EE426740D9E004833FA /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 		B5376358264512B7007C7FCF /* ToDoAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				B5B0627126742413007AAEDC /* TaskStoreTests.swift */,
 				B5376359264512B7007C7FCF /* ToDoAppTests.swift */,
 				B537635B264512B7007C7FCF /* Info.plist */,
 			);
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B0627226742413007AAEDC /* TaskStoreTests.swift in Sources */,
 				B537635A264512B7007C7FCF /* ToDoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
