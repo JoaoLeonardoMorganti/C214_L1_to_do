@@ -25,9 +25,13 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 self.searchBar.padding()
-                List(self.taskStore.tasks) { task in
-                    Text(task.toDoItem)
+                List {
+                    ForEach(self.taskStore.tasks) { task in
+                        Text(task.toDoItem)
+                    }.onMove(perform: self.move)
+                    .onDelete(perform: self.delete)
                 }.navigationBarTitle("Tarefas")
+                .navigationBarItems(trailing: EditButton())
             }
         }
     }
@@ -35,6 +39,14 @@ struct ContentView: View {
     func addNewTask() {
         self.taskStore.tasks.append(Task(id: String(taskStore.tasks.count + 1), toDoItem: self.newToDo))
         self.newToDo = ""
+    }
+    
+    func move(from source: IndexSet, to destination: Int) {
+        self.taskStore.tasks.move(fromOffsets: source, toOffset: destination)
+    }
+    
+    func delete(at offsets: IndexSet) {
+        self.taskStore.tasks.remove(atOffsets: offsets)
     }
 }
 
