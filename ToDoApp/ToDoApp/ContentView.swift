@@ -34,6 +34,7 @@ struct ContentView: View {
     
     func addNewTask() {
         self.taskStore.tasks.append(Task(id: String(taskStore.tasks.count + 1), toDoItem: self.newToDo))
+        self.newToDo = ""
     }
 }
 
