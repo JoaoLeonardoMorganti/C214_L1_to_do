@@ -1,9 +1,14 @@
-# C214-L1 - To Do App #
+<h1 align = "center"> To Do App :heavy_check_mark: :vertical_traffic_light:</h1>
+<p align = "center"><img alt="GitHub language count" src="https://img.shields.io/github/languages/count/JoaoLeonardoMorganti/C214_L1_to_do?color=red"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JoaoLeonardoMorganti/C214_L1_to_do?color=yellow"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/JoaoLeonardoMorganti/C214_L1_to_do?color=green"></p>
 
-#### Task management iOS application: From it it's possible to add new tasks with their characteristics and mark them when completed. ####
------
+----
 
-### Tools ###
+<h2>:pencil2: Description: </h2>
+
+<p>Task management iOS application: From it it's possible to add new tasks with their characteristics and mark them when completed.</p>
+
+
+<h2>:hammer: Tools:</h2>
 
 * IDE: [Xcode](https://developer.apple.com/documentation/xcode/)
 	
@@ -16,8 +21,9 @@
 * CRUD: [Core Data](https://developer.apple.com/documentation/coredata/)
 -----
 
-##### Students: #####
+<h2>:bust_in_silhouette: Students: </h2>
 
-* ##### João Leonardo Andrade Morganti Silva #####
+* João Leonardo Morganti
+* Sarah Brandão Souza
 
-* ##### Sarah Brandão Souza #####
+
