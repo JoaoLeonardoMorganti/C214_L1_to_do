@@ -19,11 +19,11 @@
 * Unit Tests: [XCTest](https://developer.apple.com/documentation/xctest)
 
 * CRUD: [Core Data](https://developer.apple.com/documentation/coredata/)
+
+* GitHub Actions: [![Swift](https://github.com/JoaoLeonardoMorganti/C214_L1_to_do/actions/workflows/swift.yml/badge.svg)](https://github.com/JoaoLeonardoMorganti/C214_L1_to_do/actions/workflows/swift.yml)
 -----
 
 <h2>:bust_in_silhouette: Students: </h2>
 
 * João Leonardo Morganti
 * Sarah Brandão Souza
-
-
