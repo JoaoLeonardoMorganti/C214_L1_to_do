@@ -8,10 +8,16 @@
 import Foundation
 import SwiftUI
 import Combine
+import RealmSwift
 
-struct Task: Identifiable {
-    var id = String()
-    var toDoItem = String()
+class Task: Object, Identifiable {
+    public var id: String!
+    public var toDoItem: String!
+    
+    public init(id: String, toDoItem: String) {
+        self.id = id
+        self.toDoItem = toDoItem
+    }
 }
 
 class TaskStore: ObservableObject {

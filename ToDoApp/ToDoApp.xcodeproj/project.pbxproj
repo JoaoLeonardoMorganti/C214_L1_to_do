@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		11B03D174BD7260CD325CEFA /* Pods_ToDoApp_ToDoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE1DDF3BC08F72343CE12A /* Pods_ToDoApp_ToDoAppUITests.framework */; };
 		78A23AB877D5CA1C4C85DA8B /* Pods_ToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7954EC875A6FD0B5761B7BD9 /* Pods_ToDoApp.framework */; };
+		B51B80C92698DA210012C6D2 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B80C82698DA210012C6D2 /* RealmManager.swift */; };
 		B5376343264512B6007C7FCF /* ToDoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5376342264512B6007C7FCF /* ToDoAppApp.swift */; };
 		B5376345264512B6007C7FCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5376344264512B6007C7FCF /* ContentView.swift */; };
 		B5376347264512B7007C7FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5376346264512B7007C7FCF /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		7954EC875A6FD0B5761B7BD9 /* Pods_ToDoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BAC388F2A91B9515B003219 /* Pods-ToDoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp.release.xcconfig"; path = "Target Support Files/Pods-ToDoApp/Pods-ToDoApp.release.xcconfig"; sourceTree = "<group>"; };
 		93CF0396EA65EE1FF91A5C91 /* Pods-ToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp.debug.xcconfig"; path = "Target Support Files/Pods-ToDoApp/Pods-ToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B51B80C82698DA210012C6D2 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		B537633F264512B6007C7FCF /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5376342264512B6007C7FCF /* ToDoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppApp.swift; sourceTree = "<group>"; };
 		B5376344264512B6007C7FCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				B5376342264512B6007C7FCF /* ToDoAppApp.swift */,
 				B5376344264512B6007C7FCF /* ContentView.swift */,
 				B5D85EE426740D9E004833FA /* TaskStore.swift */,
+				B51B80C82698DA210012C6D2 /* RealmManager.swift */,
 				B5376346264512B7007C7FCF /* Assets.xcassets */,
 				B537634B264512B7007C7FCF /* Persistence.swift */,
 				B5376350264512B7007C7FCF /* Info.plist */,
@@ -179,7 +182,6 @@
 				CF452E9876D0D3E8DB985218 /* Pods-ToDoAppTests.debug.xcconfig */,
 				EC6D5A003A27B3EDEB2CC562 /* Pods-ToDoAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -425,6 +427,7 @@
 				B5376345264512B6007C7FCF /* ContentView.swift in Sources */,
 				B5376343264512B6007C7FCF /* ToDoAppApp.swift in Sources */,
 				B537634F264512B7007C7FCF /* ToDoApp.xcdatamodeld in Sources */,
+				B51B80C92698DA210012C6D2 /* RealmManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
