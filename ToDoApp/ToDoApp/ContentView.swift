@@ -16,7 +16,7 @@ struct ContentView: View {
         HStack {
             TextField("Nova tarefa", text: self.$newToDo)
             Button(action: {
-                self.taskStore.addNewTask(text: self.newToDo)
+                self.taskStore.addTask(text: self.newToDo)
                 self.newToDo = ""
             }, label: {
                 Text("Criar")
@@ -30,21 +30,22 @@ struct ContentView: View {
                 self.searchBar.padding()
                 List {
                     ForEach(self.taskStore.tasks) { task in
-                        Text(task.toDoItem)
-                    }.onMove(perform: self.move)
-                    .onDelete(perform: self.delete)
+                        Text(task.toDoItem ?? "")
+                    }.onDelete(perform: self.delete)
                 }.navigationBarTitle("Tarefas")
                 .navigationBarItems(trailing: EditButton())
             }
         }
     }
     
-    func move(from source: IndexSet, to destination: Int) {
-        self.taskStore.tasks.move(fromOffsets: source, toOffset: destination)
+    func delete(at offsets: IndexSet) {
+        offsets.forEach ({ index in
+            self.taskStore.deleteTask(index: index)
+        })
     }
     
-    func delete(at offsets: IndexSet) {
-        self.taskStore.tasks.remove(atOffsets: offsets)
+    init() {
+        self.taskStore.updateTasks()
     }
 }
 
