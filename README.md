@@ -25,6 +25,10 @@
 	
 * Interface: [SwiftUI](https://developer.apple.com/documentation/swiftui/)
 
+* Library: [RealmSwift](https://developer.apple.com/documentation/foundation/urlprotectionspace/1416007-realm/)
+
+* Library: [XCTests](https://developer.apple.com/documentation/xctest/xctestsuite/1500631-tests/)
+
 * Unit Tests: [XCTest](https://developer.apple.com/documentation/xctest)
 
 * CRUD: [Core Data](https://developer.apple.com/documentation/coredata/)
