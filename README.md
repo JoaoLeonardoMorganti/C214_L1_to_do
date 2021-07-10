@@ -7,7 +7,7 @@
 
 <p>Task management iOS application: From it it's possible to add new tasks with their characteristics and mark them when completed.</p>
 
-<h2>📝: Scope: </h2>
+<h2>📝 Scope: </h2>
 
 <p>I) Find something the users use much during theirs lifes but in some way it could be more intuitive and automatic.</p>
 <p>II) Implementation of a phone funcionatily which can daily help their users.</p>
@@ -33,7 +33,27 @@
 
 * CRUD: [Core Data](https://developer.apple.com/documentation/coredata/)
 
-* GitHub Actions: [![Swift](https://github.com/JoaoLeonardoMorganti/C214_L1_to_do/actions/workflows/swift.yml/badge.svg)](https://github.com/JoaoLeonardoMorganti/C214_L1_to_do/actions/workflows/swift.yml)
+* GitHub Actions: [![CI](https://github.com/JoaoLeonardoMorganti/C214_L1_to_do/actions/workflows/CI.yml/badge.svg)](https://github.com/JoaoLeonardoMorganti/C214_L1_to_do/actions/workflows/CI.yml)
+
+<h2>💻 How to use: </h2>
+
+* Download this repository
+
+* Go to ToDoApp folder
+
+* Open this folder in terminal
+
+```bash
+
+# Run command
+$ pod install
+
+```
+
+* Open ToDoApp.xcworkspace in Xcode
+
+* Run project
+
 -----
 
 <h2>:bust_in_silhouette: Students: </h2>
