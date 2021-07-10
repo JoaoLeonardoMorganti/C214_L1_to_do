@@ -7,6 +7,15 @@
 
 <p>Task management iOS application: From it it's possible to add new tasks with their characteristics and mark them when completed.</p>
 
+<h2>📝: Scope: </h2>
+
+<p>I) Find something the users use much during theirs lifes but in some way it could be more intuitive and automatic.</p>
+<p>II) Implementation of a phone funcionatily which can daily help their users.</p>
+<p>III) Avaiability of the app from external users to make a try and see if it can solve their usual problems.</p>
+
+<h2>:pencil: Functionality: </h2>
+
+<p>Create tasks to remember the usesr their daily works, list them when asked for and delete if it's not useful anymore.</p>
 
 <h2>:hammer: Tools:</h2>
 
