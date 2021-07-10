@@ -11,6 +11,8 @@
 		78A23AB877D5CA1C4C85DA8B /* Pods_ToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7954EC875A6FD0B5761B7BD9 /* Pods_ToDoApp.framework */; };
 		B51B80C92698DA210012C6D2 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B80C82698DA210012C6D2 /* RealmManager.swift */; };
 		B51B80CD2699081B0012C6D2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B80CC2699081B0012C6D2 /* Task.swift */; };
+		B51B80D026990AEA0012C6D2 /* TaskStoreMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B80CF26990AEA0012C6D2 /* TaskStoreMock.swift */; };
+		B51B80D226990B4E0012C6D2 /* RealmManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B80D126990B4E0012C6D2 /* RealmManagerMock.swift */; };
 		B5376343264512B6007C7FCF /* ToDoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5376342264512B6007C7FCF /* ToDoAppApp.swift */; };
 		B5376345264512B6007C7FCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5376344264512B6007C7FCF /* ContentView.swift */; };
 		B5376347264512B7007C7FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5376346264512B7007C7FCF /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		93CF0396EA65EE1FF91A5C91 /* Pods-ToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp.debug.xcconfig"; path = "Target Support Files/Pods-ToDoApp/Pods-ToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B51B80C82698DA210012C6D2 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		B51B80CC2699081B0012C6D2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B51B80CF26990AEA0012C6D2 /* TaskStoreMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStoreMock.swift; sourceTree = "<group>"; };
+		B51B80D126990B4E0012C6D2 /* RealmManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManagerMock.swift; sourceTree = "<group>"; };
 		B537633F264512B6007C7FCF /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5376342264512B6007C7FCF /* ToDoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppApp.swift; sourceTree = "<group>"; };
 		B5376344264512B6007C7FCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B51B80CE26990A8F0012C6D2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B51B80CF26990AEA0012C6D2 /* TaskStoreMock.swift */,
+				B51B80D126990B4E0012C6D2 /* RealmManagerMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		B5376336264512B6007C7FCF = {
 			isa = PBXGroup;
 			children = (
@@ -139,8 +152,8 @@
 				B5D85EE426740D9E004833FA /* TaskStore.swift */,
 				B51B80CC2699081B0012C6D2 /* Task.swift */,
 				B51B80C82698DA210012C6D2 /* RealmManager.swift */,
-				B5376346264512B7007C7FCF /* Assets.xcassets */,
 				B537634B264512B7007C7FCF /* Persistence.swift */,
+				B5376346264512B7007C7FCF /* Assets.xcassets */,
 				B5376350264512B7007C7FCF /* Info.plist */,
 				B537634D264512B7007C7FCF /* ToDoApp.xcdatamodeld */,
 				B5376348264512B7007C7FCF /* Preview Content */,
@@ -159,6 +172,7 @@
 		B5376358264512B7007C7FCF /* ToDoAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				B51B80CE26990A8F0012C6D2 /* Mocks */,
 				B5B0627126742413007AAEDC /* TaskStoreTests.swift */,
 				B5376359264512B7007C7FCF /* ToDoAppTests.swift */,
 				B537635B264512B7007C7FCF /* Info.plist */,
@@ -441,6 +455,8 @@
 			files = (
 				B5B0627226742413007AAEDC /* TaskStoreTests.swift in Sources */,
 				B537635A264512B7007C7FCF /* ToDoAppTests.swift in Sources */,
+				B51B80D026990AEA0012C6D2 /* TaskStoreMock.swift in Sources */,
+				B51B80D226990B4E0012C6D2 /* RealmManagerMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
